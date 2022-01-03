@@ -189,7 +189,7 @@ function annotations(img_id, panel_id, highlights) {
             });
             var xhr = new XMLHttpRequest();
 
-	    // making this async causes bug #20
+            // making this async causes bug #20
             xhr.open(method, url, false); 
 
             xhr.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
